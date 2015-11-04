@@ -34,7 +34,7 @@ public class Ads : MonoBehaviour {
 
 	public void HandleInterstitialLoaded() {
 		if(BallMovement.IsDead){
-         //admob.ShowInterstitial();
+                admob.ShowInterstitial();
 		}
 	}
 }
